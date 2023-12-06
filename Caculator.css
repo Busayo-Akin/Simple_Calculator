@@ -1,0 +1,78 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(244, 228, 207);
+}
+
+h3 {
+    text-align: center;
+    font-weight: 500;
+    font-size: medium;
+}
+div {
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 400px;
+    margin: 100px auto;
+    padding: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+}
+form{
+    justify-content: center;
+}
+
+#data1 {
+    border-color: rgb(167, 167, 167);
+    border-width: 1px;
+    width: auto;
+    height: 25px;
+    text-align: center;
+
+}
+
+#data2 {
+    border-color: rgb(167, 167, 167);
+    border-width: 1px;
+    width: auto;
+    height: 25px;
+    text-align: center;
+
+}
+
+#operator {
+    border-color: rgb(167, 167, 167);
+    border-width: 1px;
+    width: 170px;
+    height: 28px;
+    text-align: center;
+
+}
+select{
+    height: 25px;
+    width: auto;
+    background-color: rgb(244, 228, 207);
+    color: black;
+}
+
+#calculate{
+    border-color: rgb(167, 167, 167);
+    border-width: 0;
+    width: 170px;
+    height: 28px;
+    text-align: center;
+    color: black;
+    background-color: burlywood;
+}
+#calculate:hover{
+    background-color: rgb(30, 29, 29);
+    color:rgb(244, 228, 207) ;
+}
+
+input{
+    width: 100px;
+    padding: 5px;
+}
